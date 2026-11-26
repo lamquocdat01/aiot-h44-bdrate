@@ -1,0 +1,109 @@
+{
+ "label": "POST HOC F1b/c (coverage), yolo26n, iso L8, mAP; inner bootstrap 300",
+ "cells": {
+  "voc|jpeg->webp|166": {
+   "S_outer": 300,
+   "coverage": 0.9666666666666667,
+   "wilson95": [
+    0.9397381739273791,
+    0.9817950527459094
+   ],
+   "miss_low": 7,
+   "miss_high": 3,
+   "mean_halfwidth": 6.628984366099095,
+   "true_bd_full": -49.190193599345456,
+   "mean_point": -49.128663496432054
+  },
+  "voc|webp->avif|166": {
+   "S_outer": 300,
+   "coverage": 0.9566666666666667,
+   "wilson95": [
+    0.927282534081179,
+    0.974503552020539
+   ],
+   "miss_low": 9,
+   "miss_high": 4,
+   "mean_halfwidth": 11.271812489689232,
+   "true_bd_full": -15.514196346455144,
+   "mean_point": -16.32507629283357
+  },
+  "coco|jpeg->webp|166": {
+   "S_outer": 300,
+   "coverage": 0.9433333333333334,
+   "wilson95": [
+    0.9111340416738992,
+    0.9643225236657248
+   ],
+   "miss_low": 14,
+   "miss_high": 3,
+   "mean_halfwidth": 5.8398365370413545,
+   "true_bd_full": -51.13393910176267,
+   "mean_point": -51.595332619988376
+  },
+  "coco|webp->avif|166": {
+   "S_outer": 300,
+   "coverage": 0.9633333333333334,
+   "wilson95": [
+    0.9355461515538872,
+    0.9794046949288777
+   ],
+   "miss_low": 4,
+   "miss_high": 7,
+   "mean_halfwidth": 13.604673050906236,
+   "true_bd_full": -2.0652279577239696,
+   "mean_point": -0.6848854138497703
+  },
+  "voc|jpeg->webp|500": {
+   "S_outer": 300,
+   "coverage": 0.9733333333333334,
+   "wilson95": [
+    0.9482710567929951,
+    0.9864269302613404
+   ],
+   "miss_low": 2,
+   "miss_high": 6,
+   "mean_halfwidth": 3.7000121572137914,
+   "true_bd_full": -49.190193599345456,
+   "mean_point": -48.97618070865325
+  },
+  "voc|webp->avif|500": {
+   "S_outer": 300,
+   "coverage": 0.9766666666666667,
+   "wilson95": [
+    0.9526280274818696,
+    0.9886523397629893
+   ],
+   "miss_low": 7,
+   "miss_high": 0,
+   "mean_halfwidth": 6.026791831754622,
+   "true_bd_full": -15.514196346455144,
+   "mean_point": -15.751440247890836
+  },
+  "coco|jpeg->webp|500": {
+   "S_outer": 300,
+   "coverage": 0.94,
+   "wilson95": [
+    0.9071605545391724,
+    0.961713630609928
+   ],
+   "miss_low": 14,
+   "miss_high": 4,
+   "mean_halfwidth": 3.63680725504339,
+   "true_bd_full": -51.13393910176267,
+   "mean_point": -51.40484443934551
+  },
+  "coco|webp->avif|500": {
+   "S_outer": 300,
+   "coverage": 0.96,
+   "wilson95": [
+    0.9313957876817327,
+    0.9769726786105086
+   ],
+   "miss_low": 7,
+   "miss_high": 5,
+   "mean_halfwidth": 9.21703487264291,
+   "true_bd_full": -2.0652279577239696,
+   "mean_point": -1.380083973588165
+  }
+ }
+}

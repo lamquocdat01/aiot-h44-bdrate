@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "aiot-h44-bdrate: test-set sampling error of BD-rate on detection accuracy"
+authors:
+  - family-names: "Lam Quoc"
+    given-names: "Dat"
+    orcid: "https://orcid.org/0009-0004-5432-9343"
+  - family-names: "Nguyen Xuan"
+    given-names: "Truong"
+    orcid: "https://orcid.org/0009-0004-0779-3610"
+  - family-names: "Le Nhut Thanh"
+    given-names: "Quang"
+    orcid: "https://orcid.org/0009-0000-2356-7753"
+  - family-names: "Lam Van"
+    given-names: "Trung"
+    orcid: "https://orcid.org/0009-0004-7231-9704"
+  - family-names: "Le Trung"
+    given-names: "Dung"
+    orcid: "https://orcid.org/0009-0001-4897-829X"
+  - family-names: "Truong Nguyen Thang"
+    given-names: "Loi"
+    orcid: "https://orcid.org/0009-0002-9967-1340"
+license: AGPL-3.0-or-later

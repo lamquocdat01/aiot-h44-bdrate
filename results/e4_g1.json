@@ -1,0 +1,129 @@
+{
+ "label": "EXPLORATORY G1 (not preregistered; both datasets seen). Rule: prereg/AMENDMENT_LOG_E.md #8",
+ "model": "torchvision fasterrcnn_mobilenet_v3_large_fpn COCO_V1, box_score_thresh 0.001, 300 det/img, default transform",
+ "subset": "rtdetr_l 1,500-image subset; paired rtboot|1500 draws",
+ "datasets": {
+  "voc": {
+   "orig_map": {
+    "yolo26n": 64.62607379663433,
+    "yolo26s": 70.86781870563006,
+    "yolo26l": 75.23252304850526,
+    "rtdetr_l": 74.36890458603175,
+    "frcnn_mv3": 57.796353198800254
+   },
+   "bd": {
+    "yolo26n": {
+     "jpeg->webp": -49.995134087821455,
+     "jpeg->avif": -58.24115244800184,
+     "webp->avif": -17.296378152150382
+    },
+    "yolo26s": {
+     "jpeg->webp": -48.37323058162507,
+     "jpeg->avif": -58.8855409988311,
+     "webp->avif": -23.221410259345397
+    },
+    "yolo26l": {
+     "jpeg->webp": -47.562336744988656,
+     "jpeg->avif": -56.21449368574203,
+     "webp->avif": -18.078824025432972
+    },
+    "rtdetr_l": {
+     "jpeg->webp": -34.779468252310174,
+     "jpeg->avif": -43.3974806829423,
+     "webp->avif": -12.1525618733463
+    },
+    "frcnn_mv3": {
+     "jpeg->webp": -34.52711759179926,
+     "jpeg->avif": -45.139468048008034,
+     "webp->avif": -18.198919619953347
+    }
+   },
+   "paired": {
+    "frcnn_mv3-yolo26n|jpeg->webp": {
+     "diff": 15.468016496022194,
+     "ci95": [
+      12.91834280533087,
+      18.24167313435622
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-yolo26n|jpeg->avif": {
+     "diff": 13.101684399993808,
+     "ci95": [
+      10.931450400797766,
+      15.351723521074469
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-yolo26n|webp->avif": {
+     "diff": -0.9025414678029655,
+     "ci95": [
+      -5.115724005347337,
+      2.854813411352157
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-yolo26l|jpeg->webp": {
+     "diff": 13.035219153189395,
+     "ci95": [
+      10.563178847624055,
+      15.793774672044604
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-yolo26l|jpeg->avif": {
+     "diff": 11.075025637733994,
+     "ci95": [
+      8.807304274163275,
+      13.17147350313427
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-yolo26l|webp->avif": {
+     "diff": -0.12009559452037522,
+     "ci95": [
+      -4.324841906291108,
+      3.5671480355097565
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-rtdetr_l|jpeg->webp": {
+     "diff": 0.25235066051091337,
+     "ci95": [
+      -3.1380172264624764,
+      3.753450480523686
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-rtdetr_l|jpeg->avif": {
+     "diff": -1.7419873650657323,
+     "ci95": [
+      -4.914335869664755,
+      1.0615078296803202
+     ],
+     "n_nan": 0
+    },
+    "frcnn_mv3-rtdetr_l|webp->avif": {
+     "diff": -6.046357746607047,
+     "ci95": [
+      -12.099369179442515,
+      -1.2018575637837048
+     ],
+     "n_nan": 0
+    }
+   },
+   "rule": {
+    "|f-n|": {
+     "jpeg->webp": 15.468016496022194,
+     "jpeg->avif": 13.101684399993808
+    },
+    "ci_excludes_0": {
+     "jpeg->webp": true,
+     "jpeg->avif": true
+    },
+    "verdict_key": "dep",
+    "verdict": "BD-rate depends on the detector, not only RT-DETR"
+   }
+  }
+ }
+}

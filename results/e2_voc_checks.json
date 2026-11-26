@@ -1,0 +1,61 @@
+{
+ "checks": [
+  {
+   "det": "yolo26n",
+   "op": "orig",
+   "set": "full",
+   "pycoco_map": 0.6456740466166188,
+   "fast_map": 0.6456740466166188,
+   "pycoco_wap": 0.6421996299186613,
+   "fast_wap": 0.6421996299186613,
+   "absdiff": 0.0
+  },
+  {
+   "det": "yolo26n",
+   "op": "jpeg_3",
+   "set": "full",
+   "pycoco_map": 0.5698752038182496,
+   "fast_map": 0.5698752038182496,
+   "pycoco_wap": 0.5718004060579077,
+   "fast_wap": 0.5718004060579076,
+   "absdiff": 1.1102230246251565e-16
+  },
+  {
+   "det": "yolo26n",
+   "op": "hevc_2",
+   "set": "full",
+   "pycoco_map": 0.5716938246142026,
+   "fast_map": 0.5716938246142025,
+   "pycoco_wap": 0.5764189221939975,
+   "fast_wap": 0.5764189221939974,
+   "absdiff": 1.1102230246251565e-16
+  },
+  {
+   "det": "yolo26s",
+   "op": "avif_5",
+   "set": "full",
+   "pycoco_map": 0.7039677971075035,
+   "fast_map": 0.7039677971075036,
+   "pycoco_wap": 0.6995188498172106,
+   "fast_wap": 0.6995188498172106,
+   "absdiff": 1.1102230246251565e-16
+  },
+  {
+   "det": "rtdetr_l",
+   "op": "webp_4",
+   "set": "rt",
+   "pycoco_map": 0.7360853841229815,
+   "fast_map": 0.7360853841229814,
+   "pycoco_wap": 0.7147725447630846,
+   "fast_wap": 0.7147725447630848,
+   "absdiff": 2.220446049250313e-16
+  }
+ ],
+ "max_absdiff": 2.220446049250313e-16,
+ "DUNG_V2_pass": true,
+ "yolo26n_orig_map_x100": 64.56740466166188,
+ "DUNG_V1_pass": true,
+ "n_images": 4952,
+ "n_gt": 14976,
+ "n_gt_difficult": 2944
+}

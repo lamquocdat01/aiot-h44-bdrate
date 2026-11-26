@@ -1,0 +1,13 @@
+# versions used for every result in results/ (Python 3.11.9, Windows 11, CPU only)
+numpy==1.26.4
+scipy==1.16.3
+numba==0.68.1
+llvmlite==0.50.0
+pycocotools==2.0.11
+matplotlib==3.11.2
+pillow==11.3.0
+pillow-avif-plugin==1.5.2
+pillow_heif==1.8.1
+torch==2.15.0
+torchvision==0.29.2
+ultralytics==8.4.7

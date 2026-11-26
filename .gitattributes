@@ -1,0 +1,2 @@
+# keep every file byte-exact so the SHA-256 values in prereg/FREEZE_*.txt can be checked on any platform
+* -text

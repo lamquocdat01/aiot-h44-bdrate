@@ -1,0 +1,8 @@
+FREEZE_E_C6 — 2026-11-26 10:30:48 +0700 — đóng băng trước khi tính q* trên VOC (mới chạy e5_c6.py trên COCO để kiểm mã)
+--- sha256
+fbf54c6b3867e270a06f870f2c3f0b40b4d2914e2373a7c67045ceec134934e3 *prereg/PREREG_H44_E_C6.md
+7b77bd1aa4a4c4bb751f042651fcb5adda10ecdfed50438d43bf848277c7fb20 *code/e5_c6.py
+8d473acccab7042975fb3eae9deb5ae30e8afc142e82d0e9af495a7c1388a9ff *code/e3_common.py
+23adac395f64095523dba7c1b1c44513726799caa047ecb8ee06b93411947a41 *code/e3_data.py
+323cd18fa8ed476320387b32a76f5ea779d02fdece10eb526058cf42d4640ead *code/e3_fastboot.py
+1bf89b52c367c5f0b497ea30919cc9ddbbace12c2f5252f3f731b13df790c455 *code/p1_bd.py

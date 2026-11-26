@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+# secrets
+.env
+*.env
+# data, encoded images and weights are never committed (see README)
+data/
+*.jpg
+*.jpeg
+*.webp
+*.avif
+*.heic
+*.pt
+*.pth
+*.npz
+*.zip
+*.tar
+# working material kept out of the public repository
+manuscript/
+lit/
+prompts/
+*.bak*
