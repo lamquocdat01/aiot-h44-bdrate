@@ -21,3 +21,22 @@ authors:
     given-names: "Loi"
     orcid: "https://orcid.org/0009-0002-9967-1340"
 license: AGPL-3.0-or-later
+repository-code: "https://github.com/lamquocdat01/aiot-h44-bdrate"
+preferred-citation:
+  type: unpublished
+  title: "How many images does a BD-rate on detection accuracy need? Test-set sampling error, detector dependence, and the choice of accuracy metric"
+  notes: "Manuscript prepared for submission to the Journal of Visual Communication and Image Representation"
+  year: 2026
+  authors:
+    - family-names: "Lam Quoc"
+      given-names: "Dat"
+    - family-names: "Nguyen Xuan"
+      given-names: "Truong"
+    - family-names: "Le Nhut Thanh"
+      given-names: "Quang"
+    - family-names: "Lam Van"
+      given-names: "Trung"
+    - family-names: "Le Trung"
+      given-names: "Dung"
+    - family-names: "Truong Nguyen Thang"
+      given-names: "Loi"

@@ -5,7 +5,7 @@ Code, pre-registrations and derived result files for the manuscript
 > **How many images does a BD-rate on detection accuracy need? Test-set sampling error, detector dependence, and the choice of accuracy metric**
 > Dat Lam Quoc, Truong Nguyen Xuan, Quang Le Nhut Thanh, Trung Lam Van, Dung Le Trung and Loi Truong Nguyen Thang
 > FPT School of Business and Technology (FSB), FPT University, Ho Chi Minh City, Vietnam.
-> Version prepared for submission to the *Journal of Visual Communication and Image Representation*: https://github.com/lamquocdat01/aiot-h44-bdrate, tag `submission-jvcir-v1` (the tag marks the exact commit cited in the manuscript).
+> Version prepared for submission to the *Journal of Visual Communication and Image Representation*: https://github.com/lamquocdat01/aiot-h44-bdrate, tag `submission-jvcir-v1.1` (cited in the manuscript; it differs from `submission-jvcir-v1` only in `CITATION.cff` and this README — code, pre-registrations and result files are identical).
 
 The study measures the test-set sampling error of the BD-rate computed on object-detection mAP (JPEG, WebP, AVIF at eight quality levels; YOLO26 n/s/l, RT-DETR-L, Faster R-CNN MobileNetV3-Large-FPN), compares it with detector and metric choices, and checks whether a BD-rate gap between detectors changes the quality level chosen for a 1-point mAP-loss target. COCO val2017 was the exploratory set; PASCAL VOC 2007 test was the confirmatory set, analysed under pre-registrations frozen before the corresponding computations.
 
@@ -63,7 +63,7 @@ Run times are for a desktop CPU (8 cores).
 | VOC confirmation (frozen code) | `python e2_01_voc_encode.py 4`; `python e2_02_voc_detect.py 6`; `python e2_03_voc_eval.py build`; `python e2_04_voc_draws.py 4`; `python e2_05_confirm.py` | `e2_confirm.json` | Table 1 |
 | Post hoc | `python e2_06_posthoc.py`; `python e3_02_draws.py`; `python e3_01_f1.py a`, `b`, `c`; `python e3_03_f2f3.py both` | `e2_posthoc.json`, `e3_f1a.json`, `e3_f1bc.json`, `e3_f2.json`, `e3_f3.json` | Tables 2, 3, 5, 6; Figs 1, 2 |
 | Extra detectors (exploratory) | `python e3_04_detect.py run yolo26l voc coco --threads 6 --max-hours 13.5`; `python e3_05_f4eval.py build yolo26l voc coco`; `python e3_05_f4eval.py analyse yolo26l`; `python e4_01_frcnn.py run frcnn_mv3 voc --threads 6 --max-hours 9.5`; `python e3_05_f4eval.py build frcnn_mv3 voc`; `python e4_02_g1.py voc` | `e3_f4.json`, `e4_g1.json` | Table 4, Fig. 3 |
-| Operating points (C6) | `python e5_c6.py voc`; `python e5_c6.py coco`; `python e5_c6.py extra frcnn_mv3` | `e5_c6.json` | Table 7 |
+| Operating points (C6) | `python e5_c6.py voc`; `python e5_c6.py coco`; `python e5_c6.py extra frcnn_mv3` | `e5_c6.json` | Table 7; Tables S5–S6 |
 | Curves for the supplement | `python e4_00_collect.py` | `e4_curves.json` | Tables S1–S2 |
 
 ## Licence
