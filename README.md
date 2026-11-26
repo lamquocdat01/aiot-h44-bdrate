@@ -5,7 +5,7 @@ Code, pre-registrations and derived result files for the manuscript
 > **How many images does a BD-rate on detection accuracy need? Test-set sampling error, detector dependence, and the choice of accuracy metric**
 > Dat Lam Quoc, Truong Nguyen Xuan, Quang Le Nhut Thanh, Trung Lam Van, Dung Le Trung and Loi Truong Nguyen Thang
 > FPT School of Business and Technology (FSB), FPT University, Ho Chi Minh City, Vietnam.
-> Version prepared for submission to the *Journal of Visual Communication and Image Representation* (tag `submission-jvcir-v1`).
+> Version prepared for submission to the *Journal of Visual Communication and Image Representation*: https://github.com/lamquocdat01/aiot-h44-bdrate, tag `submission-jvcir-v1` (the tag marks the exact commit cited in the manuscript).
 
 The study measures the test-set sampling error of the BD-rate computed on object-detection mAP (JPEG, WebP, AVIF at eight quality levels; YOLO26 n/s/l, RT-DETR-L, Faster R-CNN MobileNetV3-Large-FPN), compares it with detector and metric choices, and checks whether a BD-rate gap between detectors changes the quality level chosen for a 1-point mAP-loss target. COCO val2017 was the exploratory set; PASCAL VOC 2007 test was the confirmatory set, analysed under pre-registrations frozen before the corresponding computations.
 
