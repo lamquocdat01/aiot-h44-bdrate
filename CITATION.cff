@@ -25,7 +25,7 @@ repository-code: "https://github.com/lamquocdat01/aiot-h44-bdrate"
 preferred-citation:
   type: unpublished
   title: "How many images does a BD-rate on detection accuracy need? Test-set sampling error, detector dependence, and the choice of accuracy metric"
-  notes: "Manuscript prepared for submission to the Journal of Visual Communication and Image Representation"
+  notes: "Manuscript prepared for submission to Pattern Recognition"
   year: 2026
   authors:
     - family-names: "Lam Quoc"
